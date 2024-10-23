@@ -1,0 +1,201 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "AboutUs.md",
+      "title": "About Us",
+      "headings": {
+        "about-us": "About Us",
+        "project-team": "Project team",
+        "nikhil-sultania": "Nikhil Sultania",
+        "theodore-lim": "Theodore Lim",
+        "josh-thoo-jen-sen": "Josh Thoo Jen Sen",
+        "kimaya-wanjari": "Kimaya Wanjari",
+        "nathan-shew": "Nathan Shew"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Configuration.md",
+      "title": "Configuration guide",
+      "headings": {
+        "configuration-guide": "Configuration Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "DevOps.md",
+      "title": "DevOps guide",
+      "headings": {
+        "devops-guide": "DevOps guide",
+        "continuous-integration-ci": "Continuous integration (CI)",
+        "code-coverage": "Code coverage",
+        "repository-wide-checks": "Repository-wide checks",
+        "making-a-release": "Making a release"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "DeveloperGuide.md",
+      "title": "Developer Guide",
+      "headings": {
+        "edulog-developer-guide": "EduLog Developer Guide",
+        "acknowledgements": "Acknowledgements",
+        "list-here-sources-of-all-reused-adapted-ideas-code-documentation-and-third-party-libraries-include-links-to-the-original-source-as-well": "{ list here sources of all reused/adapted ideas, code, documentation, and third-party libraries -- include links to the original source as well }",
+        "setting-up-getting-started": "Setting up, getting started",
+        "design": "Design",
+        "architecture": "Architecture",
+        "ui-component": "UI component",
+        "logic-component": "Logic component",
+        "model-component": "Model component",
+        "storage-component": "Storage component",
+        "common-classes": "Common classes",
+        "implementation": "Implementation",
+        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
+        "proposed-data-archiving": "[Proposed] Data archiving",
+        "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
+        "appendix-requirements": "Appendix: Requirements",
+        "product-scope": "Product scope",
+        "user-stories": "User stories",
+        "use-cases": "Use cases",
+        "uc1-add-a-class": "UC1: Add a class",
+        "extension": "Extension:",
+        "uc2-delete-a-class": "UC2: Delete a class",
+        "extension-2": "Extension:",
+        "uc3-add-student": "UC3: Add student",
+        "extension-3": "Extension:",
+        "uc4-edit-student": "UC4: Edit student",
+        "extension-4": "Extension:",
+        "uc5-create-tag": "UC5: Create Tag",
+        "extension-5": "Extension:",
+        "uc6-edit-tag": "UC6: Edit tag",
+        "extension-6": "Extension:",
+        "uc7-delete-tag": "UC7: Delete tag",
+        "extension-7": "Extension:",
+        "uc8-view-students-nikhil": "UC8: View students (Nikhil)",
+        "extension-8": "Extension:",
+        "uc9-remove-student-nikhil": "UC9: Remove student (Nikhil)",
+        "extension-9": "Extension:",
+        "non-functional-requirements": "Non-Functional Requirements",
+        "glossary": "Glossary",
+        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "launch-and-shutdown": "Launch and shutdown",
+        "deleting-a-student": "Deleting a student",
+        "saving-data": "Saving data"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Documentation.md",
+      "title": "Documentation guide",
+      "headings": {
+        "documentation-guide": "Documentation Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Logging.md",
+      "title": "Logging guide",
+      "headings": {
+        "logging-guide": "Logging guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "SettingUp.md",
+      "title": "Setting up and getting started",
+      "headings": {
+        "setting-up-and-getting-started": "Setting up and getting started",
+        "setting-up-the-project-in-your-computer": "Setting up the project in your computer",
+        "before-writing-code": "Before writing code"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Testing.md",
+      "title": "Testing guide",
+      "headings": {
+        "testing-guide": "Testing guide",
+        "running-tests": "Running tests",
+        "types-of-tests": "Types of tests"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "UserGuide.md",
+      "title": "User Guide",
+      "headings": {
+        "edulog-user-guide": "EduLog User Guide",
+        "quick-start": "Quick start",
+        "features": "Features",
+        "viewing-help-help": "Viewing help : help",
+        "adding-a-student-add": "Adding a student: add",
+        "listing-all-students-list": "Listing all students : list",
+        "editing-a-student-edit": "Editing a student : edit",
+        "locating-students-by-name-find": "Locating students by name: find",
+        "deleting-a-student-delete": "Deleting a student : delete",
+        "marking-a-student-s-attendance-mark": "Marking a student's attendance: `mark'",
+        "marking-all-students-attendance-markall": "Marking all students' attendance: `markall'",
+        "unmarking-a-student-s-attendance-unmark": "Unmarking a student's attendance: `unmark'",
+        "unmarking-all-students-attendance-unmarkall": "Unmarking all students' attendance: `unmarkall'",
+        "clearing-all-entries-clear": "Clearing all entries : clear",
+        "exiting-the-program-exit": "Exiting the program : exit",
+        "saving-the-data": "Saving the data",
+        "editing-the-data-file": "Editing the data file",
+        "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
+        "faq": "FAQ",
+        "known-issues": "Known issues",
+        "command-summary": "Command summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "",
+      "headings": {
+        "edulog": "EduLog"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/josh1248.md",
+      "title": "Josh's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/kimxw.md",
+      "title": "Kimaya's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/nathanshew.md",
+      "title": "Nathan's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/obrona.md",
+      "title": "Theodore's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/timenikhil.md",
+      "title": "KNikhil's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}

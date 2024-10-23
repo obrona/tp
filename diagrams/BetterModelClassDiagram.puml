@@ -1,0 +1,21 @@
+@startuml
+!include style.puml
+skinparam arrowThickness 1.1
+skinparam arrowColor MODEL_COLOR
+skinparam classBackgroundColor MODEL_COLOR
+
+EduLog *-right-> "1" UniqueStudentList
+EduLog *-right-> "1" UniqueTagList
+UniqueTagList -[hidden]down- UniqueStudentList
+UniqueTagList -[hidden]down- UniqueStudentList
+
+UniqueTagList -right-> "*" Tag
+UniqueStudentList -right-> Student
+
+Student -up-> "*" Tag
+
+Student *--> Name
+Student *--> Phone
+Student *--> Email
+Student *--> Address
+@enduml

@@ -1,0 +1,43 @@
+@startuml
+!include style.puml
+skinparam arrowThickness 1.1
+skinparam arrowColor STORAGE_COLOR
+skinparam classBackgroundColor STORAGE_COLOR
+
+package Storage as StoragePackage {
+
+package "UserPrefs Storage" #F4F6F6{
+Class "<<interface>>\nUserPrefsStorage" as UserPrefsStorage
+Class JsonUserPrefsStorage
+}
+
+Class "<<interface>>\nStorage" as Storage
+Class StorageManager
+
+package "EduLog Storage" #F4F6F6{
+Class "<<interface>>\nEduLogStorage" as EduLogStorage
+Class JsonEduLogStorage
+Class JsonSerializableEduLog
+Class JsonAdaptedStudent
+Class JsonAdaptedTag
+}
+
+}
+
+Class HiddenOutside #FFFFFF
+HiddenOutside ..> Storage
+
+StorageManager .up.|> Storage
+StorageManager -up-> "1" UserPrefsStorage
+StorageManager -up-> "1" EduLogStorage
+
+Storage -left-|> UserPrefsStorage
+Storage -right-|> EduLogStorage
+
+JsonUserPrefsStorage .up.|> UserPrefsStorage
+JsonEduLogStorage .up.|> EduLogStorage
+JsonEduLogStorage ..> JsonSerializableEduLog
+JsonSerializableEduLog --> "*" JsonAdaptedStudent
+JsonAdaptedStudent --> "*" JsonAdaptedTag
+
+@enduml
