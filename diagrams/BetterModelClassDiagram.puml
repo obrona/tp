@@ -6,6 +6,8 @@ skinparam classBackgroundColor MODEL_COLOR
 
 EduLog *-right-> "1" UniqueStudentList
 EduLog *-right-> "1" UniqueTagList
+EduLog *-down-> "1" EdulogCalendar
+EdulogCalendar *-down-> "*" Lesson
 UniqueTagList -[hidden]down- UniqueStudentList
 UniqueTagList -[hidden]down- UniqueStudentList
 
