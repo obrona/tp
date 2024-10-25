@@ -16,8 +16,9 @@ UniqueStudentList -right-> Student
 
 Student -up-> "*" Tag
 
-Student *--> Name
-Student *--> Phone
-Student *--> Email
-Student *--> Address
+Student *--> "1" Name
+Student *--> "1" Phone
+Student *--> "1" Email
+Student *--> "1" Address
+Student *--> "1" Fee
 @enduml
