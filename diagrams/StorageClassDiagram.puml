@@ -19,6 +19,9 @@ Class "<<interface>>\nEduLogStorage" as EduLogStorage
 Class JsonEduLogStorage
 Class JsonSerializableEduLog
 Class JsonAdaptedStudent
+Class JsonAdaptedLesson
+Class JsonAdaptedDay
+Class JsonAdaptedTime
 Class JsonAdaptedTag
 }
 
@@ -38,6 +41,9 @@ JsonUserPrefsStorage .up.|> UserPrefsStorage
 JsonEduLogStorage .up.|> EduLogStorage
 JsonEduLogStorage ..> JsonSerializableEduLog
 JsonSerializableEduLog --> "*" JsonAdaptedStudent
+JsonSerializableEduLog --> "*" JsonAdaptedLesson
+JsonAdaptedLesson --> "*" JsonAdaptedDay
+JsonAdaptedLesson --> "*" JsonAdaptedTime
 JsonAdaptedStudent --> "*" JsonAdaptedTag
 
 @enduml
