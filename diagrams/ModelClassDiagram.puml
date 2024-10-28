@@ -37,10 +37,10 @@ UserPrefs .up.|> ReadOnlyUserPrefs
 
 EduLog *--> "1" UniqueStudentList
 UniqueStudentList --> "~* all" Student
-Student *--> Name
-Student *--> Phone
-Student *--> Email
-Student *--> Address
+Student *--> "1" Name
+Student *--> "1" Phone
+Student *--> "1" Email
+Student *--> "1" Address
 Student *--> "*" Tag
 
 Student -[hidden]up--> I
