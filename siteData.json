@@ -144,7 +144,12 @@
         "6-data-files": "6. Data Files",
         "faq": " FAQ ",
         "known-issues": " Known Issues ",
-        "command-summary": " Command Summary "
+        "command-summary": " Command Summary ",
+        "1-general-commands-2": "1. General Commands",
+        "2-student-commands-2": "2. Student Commands",
+        "3-calendar-commands-2": "3. Calendar Commands",
+        "4-gift-commands": "4. Gift Commands",
+        "5-revenue-commands-2": "5. Revenue Commands"
       },
       "headingKeywords": {}
     },
