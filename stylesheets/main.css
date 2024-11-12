@@ -162,9 +162,12 @@ mark {
 }
 
 h2,
-h3,
+h3 {
+    color: #000000  ;
+}
+
 h4,
 h5,
 h6 {
-    color: #e46c0a;
+    color: #000000;
 }
